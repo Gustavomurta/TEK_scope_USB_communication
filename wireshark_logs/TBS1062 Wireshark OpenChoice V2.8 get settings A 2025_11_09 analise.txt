@@ -1,0 +1,1281 @@
+TBS1062 Wireshark OpenChoice V2.8 get settings B 2025_11_09.pcapng
+
+
+7	2025-11-09 08:40:44,070143	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+8	2025-11-09 08:40:44,070143	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+9	2025-11-09 08:40:44,070143	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+10	2025-11-09 08:40:44,070143	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+11	2025-11-09 08:40:44,070143	host	2.3.0	USB	36		SET CONFIGURATION Request
+12	2025-11-09 08:40:44,070143	2.3.0	host	USB	28		SET CONFIGURATION Response
+
+
+104	2025-11-09 08:40:46,693558	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+
+109	2025-11-09 08:40:46,693848	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+
+112	2025-11-09 08:40:46,693871	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+
+115	2025-11-09 08:40:46,694092	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+
+116	2025-11-09 08:40:46,694116	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+
+119	2025-11-09 08:40:46,694347	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+
+122	2025-11-09 08:40:46,694390	host	2.3.0	USB	36		URB_CONTROL in
+
+127	2025-11-09 08:40:46,694722	2.3.0	host	USB	52		URB_CONTROL in
+
+147	2025-11-09 08:40:47,359256	host	2.3.6	USB	67		URB_BULK out
+
+148	2025-11-09 08:40:47,359508	2.3.6	host	USB	27		URB_BULK out
+
+149	2025-11-09 08:40:47,359701	host	2.3.6	USB	39		URB_BULK out
+
+150	2025-11-09 08:40:47,362498	2.3.6	host	USB	27		URB_BULK out
+
+151	2025-11-09 08:40:47,362618	host	2.3.5	USB	27		URB_BULK in
+
+
+
+312	2025-11-09 08:40:50,728368	2.3.5	host	USB	1063		URB_BULK in
+Frame 312: Packet, 1063 bytes on wire (8504 bits), 1063 bytes captured (8504 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.5]
+    <Source or Destination: 2.3.5>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f4f43a790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1036
+    [Request in: 151]
+    [Time from request: 3.365750000 seconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data […]: 0202fd0000040000000000003a48454144455220313b3a564552424f534520313b3a444154413a454e4344472053524942494e4152593b44455354494e4154494f4e20524546413b534f55524345204348313b535441525420313b53544f5020323530303b57494454
+0000   02 02 fd 00 00 04 00 00 00 00 00 00 3a 48 45 41   ............:HEA
+0010   44 45 52 20 31 3b 3a 56 45 52 42 4f 53 45 20 31   DER 1;:VERBOSE 1
+0020   3b 3a 44 41 54 41 3a 45 4e 43 44 47 20 53 52 49   ;:DATA:ENCDG SRI
+0030   42 49 4e 41 52 59 3b 44 45 53 54 49 4e 41 54 49   BINARY;DESTINATI
+0040   4f 4e 20 52 45 46 41 3b 53 4f 55 52 43 45 20 43   ON REFA;SOURCE C
+0050   48 31 3b 53 54 41 52 54 20 31 3b 53 54 4f 50 20   H1;START 1;STOP 
+0060   32 35 30 30 3b 57 49 44 54 48 20 31 3b 3a 4c 4f   2500;WIDTH 1;:LO
+0070   43 4b 20 4e 4f 4e 45 3b 3a 44 49 53 50 4c 41 59   CK NONE;:DISPLAY
+0080   3a 46 4f 52 4d 41 54 20 59 54 3b 53 54 59 4c 45   :FORMAT YT;STYLE
+0090   20 56 45 43 54 4f 52 53 3b 50 45 52 53 49 53 54    VECTORS;PERSIST
+00a0   45 4e 43 45 20 30 3b 43 4f 4e 54 52 41 53 54 20   ENCE 0;CONTRAST 
+00b0   35 30 3b 49 4e 56 45 52 54 20 4f 46 46 3b 3a 41   50;INVERT OFF;:A
+00c0   43 51 55 49 52 45 3a 4d 4f 44 45 20 53 41 4d 50   CQUIRE:MODE SAMP
+00d0   4c 45 3b 4e 55 4d 41 56 47 20 31 36 3b 53 54 41   LE;NUMAVG 16;STA
+00e0   54 45 20 31 3b 53 54 4f 50 41 46 54 45 52 20 52   TE 1;STOPAFTER R
+00f0   55 4e 53 54 4f 50 3b 3a 43 48 31 3a 50 52 4f 42   UNSTOP;:CH1:PROB
+0100   45 20 31 2e 30 45 31 3b 43 55 52 52 45 4e 54 50   E 1.0E1;CURRENTP
+0110   52 4f 42 45 20 31 2e 30 45 31 3b 53 43 41 4c 45   ROBE 1.0E1;SCALE
+0120   20 32 2e 30 45 30 3b 50 4f 53 49 54 49 4f 4e 20    2.0E0;POSITION 
+0130   30 2e 30 45 30 3b 43 4f 55 50 4c 49 4e 47 20 44   0.0E0;COUPLING D
+0140   43 3b 42 41 4e 44 57 49 44 54 48 20 4f 4e 3b 49   C;BANDWIDTH ON;I
+0150   4e 56 45 52 54 20 4f 46 46 3b 59 55 4e 49 54 20   NVERT OFF;YUNIT 
+0160   22 56 22 3b 3a 43 48 32 3a 50 52 4f 42 45 20 31   "V";:CH2:PROBE 1
+0170   2e 30 45 31 3b 43 55 52 52 45 4e 54 50 52 4f 42   .0E1;CURRENTPROB
+0180   45 20 31 2e 30 45 31 3b 53 43 41 4c 45 20 35 2e   E 1.0E1;SCALE 5.
+0190   30 45 2d 31 3b 50 4f 53 49 54 49 4f 4e 20 30 2e   0E-1;POSITION 0.
+01a0   30 45 30 3b 43 4f 55 50 4c 49 4e 47 20 44 43 3b   0E0;COUPLING DC;
+01b0   42 41 4e 44 57 49 44 54 48 20 4f 46 46 3b 49 4e   BANDWIDTH OFF;IN
+01c0   56 45 52 54 20 4f 46 46 3b 59 55 4e 49 54 20 22   VERT OFF;YUNIT "
+01d0   56 22 3b 3a 48 4f 52 49 5a 4f 4e 54 41 4c 3a 56   V";:HORIZONTAL:V
+01e0   49 45 57 20 4d 41 49 4e 3b 4d 41 49 4e 3a 53 43   IEW MAIN;MAIN:SC
+01f0   41 4c 45 20 35 2e 30 45 2d 34 3b 50 4f 53 49 54   ALE 5.0E-4;POSIT
+0200   49 4f 4e 20 30 2e 30 45 30 3b 3a 48 4f 52 49 5a   ION 0.0E0;:HORIZ
+0210   4f 4e 54 41 4c 3a 44 45 4c 41 59 3a 53 43 41 4c   ONTAL:DELAY:SCAL
+0220   45 20 35 2e 30 45 2d 39 3b 50 4f 53 49 54 49 4f   E 5.0E-9;POSITIO
+0230   4e 20 30 2e 30 45 30 3b 3a 54 52 49 47 47 45 52   N 0.0E0;:TRIGGER
+0240   3a 4d 41 49 4e 3a 4d 4f 44 45 20 41 55 54 4f 3b   :MAIN:MODE AUTO;
+0250   54 59 50 45 20 45 44 47 45 3b 48 4f 4c 44 4f 46   TYPE EDGE;HOLDOF
+0260   46 3a 56 41 4c 55 45 20 35 2e 30 45 2d 37 3b 3a   F:VALUE 5.0E-7;:
+0270   54 52 49 47 47 45 52 3a 4d 41 49 4e 3a 45 44 47   TRIGGER:MAIN:EDG
+0280   45 3a 53 4f 55 52 43 45 20 43 48 31 3b 43 4f 55   E:SOURCE CH1;COU
+0290   50 4c 49 4e 47 20 44 43 3b 53 4c 4f 50 45 20 46   PLING DC;SLOPE F
+02a0   41 4c 4c 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49   ALL;:TRIGGER:MAI
+02b0   4e 3a 56 49 44 45 4f 3a 53 4f 55 52 43 45 20 43   N:VIDEO:SOURCE C
+02c0   48 31 3b 53 59 4e 43 20 46 49 45 4c 44 3b 50 4f   H1;SYNC FIELD;PO
+02d0   4c 41 52 49 54 59 20 4e 4f 52 4d 41 4c 3b 4c 49   LARITY NORMAL;LI
+02e0   4e 45 20 31 3b 53 54 41 4e 44 41 52 44 20 4e 54   NE 1;STANDARD NT
+02f0   53 43 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49 4e   SC;:TRIGGER:MAIN
+0300   3a 50 55 4c 53 45 3a 53 4f 55 52 43 45 20 43 48   :PULSE:SOURCE CH
+0310   31 3b 57 49 44 54 48 3a 50 4f 4c 41 52 49 54 59   1;WIDTH:POLARITY
+0320   20 50 4f 53 49 54 49 56 45 3b 57 48 45 4e 20 45    POSITIVE;WHEN E
+0330   51 55 41 4c 3b 57 49 44 54 48 20 31 2e 30 45 2d   QUAL;WIDTH 1.0E-
+0340   33 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49 4e 3a   3;:TRIGGER:MAIN:
+0350   4c 45 56 45 4c 20 32 2e 35 36 45 30 3b 3a 53 45   LEVEL 2.56E0;:SE
+0360   4c 45 43 54 3a 43 48 31 20 31 3b 43 48 32 20 30   LECT:CH1 1;CH2 0
+0370   3b 4d 41 54 48 20 30 3b 52 45 46 41 20 30 3b 52   ;MATH 0;REFA 0;R
+0380   45 46 42 20 30 3b 3a 43 55 52 53 4f 52 3a 46 55   EFB 0;:CURSOR:FU
+0390   4e 43 54 49 4f 4e 20 4f 46 46 3b 53 45 4c 45 43   NCTION OFF;SELEC
+03a0   54 3a 53 4f 55 52 43 45 20 43 48 31 3b 3a 43 55   T:SOURCE CH1;:CU
+03b0   52 53 4f 52 3a 56 42 41 52 53 3a 55 4e 49 54 53   RSOR:VBARS:UNITS
+03c0   20 53 45 43 4f 4e 44 53 3b 50 4f 53 49 54 49 4f    SECONDS;POSITIO
+03d0   4e 31 20 2d 32 2e 35 45 2d 33 3b 50 4f 53 49 54   N1 -2.5E-3;POSIT
+03e0   49 4f 4e 32 20 32 2e 35 45 2d 33 3b 3a 43 55 52   ION2 2.5E-3;:CUR
+03f0   53 4f 52 3a 48 42 41 52 53 3a 50 4f 53 49 54 49   SOR:HBARS:POSITI
+0400   4f 4e 31 20 36 2e 34 45 30 3b 50 4f               ON1 6.4E0;PO
+<Wireshark Columns>
+
+313	2025-11-09 08:40:50,728513	host	2.3.6	USB	39		URB_BULK out
+Frame 313: Packet, 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.6]
+    <Source or Destination: 2.3.6>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55e88a80
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Response in: 314]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data: 0203fc0000fc030000000000
+0000   02 03 fc 00 00 fc 03 00 00 00 00 00               ............
+<Wireshark Columns>
+
+
+314	2025-11-09 08:40:50,728724	2.3.6	host	USB	27		URB_BULK out
+Frame 314: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.6]
+    <Source or Destination: 2.3.6>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55e88a80
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 313]
+    [Time from request: 211.000 microseconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+315	2025-11-09 08:40:50,728830	host	2.3.5	USB	27		URB_BULK in
+Frame 315: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.5]
+    <Source or Destination: 2.3.5>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f4f8497c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 396]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+
+396	2025-11-09 08:40:53,131954	2.3.5	host	USB	929		URB_BULK in
+Frame 396: Packet, 929 bytes on wire (7432 bits), 929 bytes captured (7432 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.5]
+    <Source or Destination: 2.3.5>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f4f8497c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 902
+    [Request in: 315]
+    [Time from request: 2.403124000 seconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data […]: 0203fc007a03000001000000534954494f4e32202d362e3445303b3a444154414c4f4747494e473a4455524154494f4e2033303b534f55524345204348313b3a4d4541535552454d454e543a4d454153313a5459504520524d533b534f55524345204348313b3a4d45
+0000   02 03 fc 00 7a 03 00 00 01 00 00 00 53 49 54 49   ....z.......SITI
+0010   4f 4e 32 20 2d 36 2e 34 45 30 3b 3a 44 41 54 41   ON2 -6.4E0;:DATA
+0020   4c 4f 47 47 49 4e 47 3a 44 55 52 41 54 49 4f 4e   LOGGING:DURATION
+0030   20 33 30 3b 53 4f 55 52 43 45 20 43 48 31 3b 3a    30;SOURCE CH1;:
+0040   4d 45 41 53 55 52 45 4d 45 4e 54 3a 4d 45 41 53   MEASUREMENT:MEAS
+0050   31 3a 54 59 50 45 20 52 4d 53 3b 53 4f 55 52 43   1:TYPE RMS;SOURC
+0060   45 20 43 48 31 3b 3a 4d 45 41 53 55 52 45 4d 45   E CH1;:MEASUREME
+0070   4e 54 3a 4d 45 41 53 32 3a 54 59 50 45 20 50 4b   NT:MEAS2:TYPE PK
+0080   32 50 4b 3b 53 4f 55 52 43 45 20 43 48 31 3b 3a   2PK;SOURCE CH1;:
+0090   4d 45 41 53 55 52 45 4d 45 4e 54 3a 4d 45 41 53   MEASUREMENT:MEAS
+00a0   33 3a 54 59 50 45 20 46 52 45 51 55 45 4e 43 59   3:TYPE FREQUENCY
+00b0   3b 53 4f 55 52 43 45 20 43 48 31 3b 3a 4d 45 41   ;SOURCE CH1;:MEA
+00c0   53 55 52 45 4d 45 4e 54 3a 4d 45 41 53 34 3a 54   SUREMENT:MEAS4:T
+00d0   59 50 45 20 50 57 49 44 54 48 3b 53 4f 55 52 43   YPE PWIDTH;SOURC
+00e0   45 20 43 48 31 3b 3a 4d 45 41 53 55 52 45 4d 45   E CH1;:MEASUREME
+00f0   4e 54 3a 4d 45 41 53 35 3a 54 59 50 45 20 50 45   NT:MEAS5:TYPE PE
+0100   52 49 4f 44 3b 53 4f 55 52 43 45 20 43 48 31 3b   RIOD;SOURCE CH1;
+0110   3a 4d 45 41 53 55 52 45 4d 45 4e 54 3a 49 4d 4d   :MEASUREMENT:IMM
+0120   45 44 3a 54 59 50 45 20 50 45 52 49 4f 44 3b 53   ED:TYPE PERIOD;S
+0130   4f 55 52 43 45 31 20 43 48 31 3b 3a 4d 45 41 53   OURCE1 CH1;:MEAS
+0140   55 52 45 4d 45 4e 54 3a 4d 45 54 48 4f 44 20 41   UREMENT:METHOD A
+0150   55 54 4f 3b 3a 4d 41 54 48 3a 44 45 46 49 4e 45   UTO;:MATH:DEFINE
+0160   20 22 43 48 31 20 2d 20 43 48 32 22 3b 56 45 52    "CH1 - CH2";VER
+0170   54 49 43 41 4c 3a 50 4f 53 49 54 49 4f 4e 20 30   TICAL:POSITION 0
+0180   2e 30 45 30 3b 53 43 41 4c 45 20 32 2e 30 45 30   .0E0;SCALE 2.0E0
+0190   3b 3a 4d 41 54 48 3a 46 46 54 3a 48 4f 52 49 5a   ;:MATH:FFT:HORIZ
+01a0   4f 4e 54 41 4c 3a 50 4f 53 49 54 49 4f 4e 20 35   ONTAL:POSITION 5
+01b0   2e 30 45 31 3b 53 43 41 4c 45 20 31 2e 30 45 30   .0E1;SCALE 1.0E0
+01c0   3b 3a 4d 41 54 48 3a 46 46 54 3a 56 45 52 54 49   ;:MATH:FFT:VERTI
+01d0   43 41 4c 3a 50 4f 53 49 54 49 4f 4e 20 30 2e 30   CAL:POSITION 0.0
+01e0   45 30 3b 53 43 41 4c 45 20 31 2e 30 45 30 3b 3a   E0;SCALE 1.0E0;:
+01f0   48 41 52 44 43 4f 50 59 3a 42 55 54 54 4f 4e 20   HARDCOPY:BUTTON 
+0200   53 41 56 45 53 41 4c 4c 3b 46 4f 52 4d 41 54 20   SAVESALL;FORMAT 
+0210   4a 50 45 47 3b 50 4f 52 54 20 55 53 42 3b 4c 41   JPEG;PORT USB;LA
+0220   59 4f 55 54 20 4c 41 4e 44 53 43 41 50 45 3b 49   YOUT LANDSCAPE;I
+0230   4e 4b 53 41 56 45 52 20 4f 46 46 3b 3a 50 49 43   NKSAVER OFF;:PIC
+0240   54 42 52 49 44 47 45 3a 50 41 50 45 52 53 49 5a   TBRIDGE:PAPERSIZ
+0250   45 20 44 45 46 4c 54 3b 49 4d 41 47 45 53 49 5a   E DEFLT;IMAGESIZ
+0260   45 20 44 45 46 4c 54 3b 50 41 50 45 52 54 59 50   E DEFLT;PAPERTYP
+0270   45 20 44 45 46 4c 54 3b 50 52 49 4e 54 51 55 41   E DEFLT;PRINTQUA
+0280   4c 20 44 45 46 4c 54 3b 44 41 54 45 50 52 49 4e   L DEFLT;DATEPRIN
+0290   54 20 44 45 46 4c 54 3b 49 44 50 52 49 4e 54 20   T DEFLT;IDPRINT 
+02a0   44 45 46 4c 54 3b 3a 4c 41 4e 47 55 41 47 45 20   DEFLT;:LANGUAGE 
+02b0   45 4e 47 4c 49 53 48 3b 3a 41 55 54 4f 52 41 4e   ENGLISH;:AUTORAN
+02c0   47 45 3a 53 45 54 54 49 4e 47 53 20 42 4f 54 48   GE:SETTINGS BOTH
+02d0   3b 3a 4c 49 4d 49 54 3a 53 4f 55 52 43 45 20 43   ;:LIMIT:SOURCE C
+02e0   48 31 3b 43 4f 4d 50 41 52 45 20 52 45 46 41 3b   H1;COMPARE REFA;
+02f0   53 41 56 45 49 4d 41 47 45 20 30 3b 53 41 56 45   SAVEIMAGE 0;SAVE
+0300   57 46 4d 20 30 3b 53 54 4f 50 41 46 54 45 52 3a   WFM 0;STOPAFTER:
+0310   4d 4f 44 45 20 4d 41 4e 55 41 4c 3b 3a 4c 49 4d   MODE MANUAL;:LIM
+0320   49 54 3a 54 45 4d 50 4c 41 54 45 3a 44 45 53 54   IT:TEMPLATE:DEST
+0330   49 4e 41 54 49 4f 4e 20 52 45 46 41 3b 53 4f 55   INATION REFA;SOU
+0340   52 43 45 20 43 48 31 3b 54 4f 4c 45 52 41 4e 43   RCE CH1;TOLERANC
+0350   45 3a 48 4f 52 49 5a 4f 4e 54 41 4c 20 30 3b 56   E:HORIZONTAL 0;V
+0360   45 52 54 49 43 41 4c 20 30 3b 3a 53 41 56 45 3a   ERTICAL 0;:SAVE:
+0370   49 4d 41 47 45 3a 46 49 4c 45 46 4f 52 4d 41 54   IMAGE:FILEFORMAT
+0380   20 4a 50 45 47 0a                                  JPEG.
+
+<Wireshark Columns>
+
+
+///////////////////////////////////////////////////////////////////////
+
+
+TBS1062 Wireshark OpenChoice V2.8 get settings A 2025_11_09.pcapng
+
+7	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+8	2025-11-09 08:40:01,609837	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+9	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+10	2025-11-09 08:40:01,609837	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+11	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		SET CONFIGURATION Request
+12	2025-11-09 08:40:01,609837	2.3.0	host	USB	28		SET CONFIGURATION Response
+
+99	2025-11-09 08:40:03,412246	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+100	2025-11-09 08:40:03,412535	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+101	2025-11-09 08:40:03,412568	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+102	2025-11-09 08:40:03,412778	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+103	2025-11-09 08:40:03,412803	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+104	2025-11-09 08:40:03,413009	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+105	2025-11-09 08:40:03,413034	host	2.3.0	USB	36		URB_CONTROL in
+106	2025-11-09 08:40:03,413387	2.3.0	host	USB	52		URB_CONTROL in
+107	2025-11-09 08:40:04,015513	host	2.3.6	USB	67		URB_BULK out
+108	2025-11-09 08:40:04,015783	2.3.6	host	USB	27		URB_BULK out
+109	2025-11-09 08:40:04,016087	host	2.3.6	USB	39		URB_BULK out
+110	2025-11-09 08:40:04,018656	2.3.6	host	USB	27		URB_BULK out
+111	2025-11-09 08:40:04,018868	host	2.3.5	USB	27		URB_BULK in
+
+232	2025-11-09 08:40:07,376421	2.3.5	host	USB	1063		URB_BULK in
+233	2025-11-09 08:40:07,376569	host	2.3.6	USB	39		URB_BULK out
+234	2025-11-09 08:40:07,376732	2.3.6	host	USB	27		URB_BULK out
+235	2025-11-09 08:40:07,376841	host	2.3.5	USB	27		URB_BULK in
+
+-----------------------------------------------------------------------------------------------------
+
+7	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+Frame 7: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 8]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: DEVICE (0x01)
+    Language Id: no language specified (0x0000)
+    wLength: 18
+<Wireshark Columns>
+
+8	2025-11-09 08:40:01,609837	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+Frame 8: Packet, 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 7]
+    [Time from request: 0.000000000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Tektronix, Inc. (0x0699)
+    idProduct: Unknown (0x03b0)
+    bcdDevice: 0x0042
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+<Wireshark Columns>
+
+9	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+Frame 9: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 10]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 39
+<Wireshark Columns>
+
+10	2025-11-09 08:40:01,609837	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+Frame 10: Packet, 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 39
+    [Request in: 9]
+    [Time from request: 0.000000000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 39
+    bNumInterfaces: 1
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 50  (100mA)
+INTERFACE DESCRIPTOR (0.0): class Application Specific
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 3
+    bInterfaceClass: Application Specific (0xfe)
+    bInterfaceSubClass: USB Test and Measurement Device (0x03)
+    bInterfaceProtocol: USB Test and Measurement Device conforming to the USBTMC USB488 Subclass Specification (0x01)
+    iInterface: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x85  IN  Endpoint:5
+        1... .... = Direction: IN Endpoint
+        .... 0101 = Endpoint Number: 0x5
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x06  OUT  Endpoint:6
+        0... .... = Direction: OUT Endpoint
+        .... 0110 = Endpoint Number: 0x6
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x87  IN  Endpoint:7
+        1... .... = Direction: IN Endpoint
+        .... 0111 = Endpoint Number: 0x7
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 8
+<Wireshark Columns>
+
+11	2025-11-09 08:40:01,609837	host	2.3.0	USB	36		SET CONFIGURATION Request
+Frame 11: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_SELECT_CONFIGURATION (0x0000)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 12]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x00
+        0... .... = Direction: Host-to-device
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: SET CONFIGURATION (9)
+    bConfigurationValue: 1
+    wIndex: 0 (0x0000)
+    wLength: 0
+<Wireshark Columns>
+
+12	2025-11-09 08:40:01,609837	2.3.0	host	USB	28		SET CONFIGURATION Response
+Frame 12: Packet, 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0x0000000000000000
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_SELECT_CONFIGURATION (0x0000)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x00, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 0
+    [Request in: 11]
+    [Time from request: 0.000000000 seconds]
+    Control transfer stage: Complete (3)
+<Wireshark Columns>
+
+------------------------------------------------------------------------
+
+99	2025-11-09 08:40:03,412246	host	2.3.0	USB	36		GET DESCRIPTOR Request DEVICE
+Frame 99: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 100]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: DEVICE (0x01)
+    Language Id: no language specified (0x0000)
+    wLength: 18
+<Wireshark Columns>
+
+100	2025-11-09 08:40:03,412535	2.3.0	host	USB	46		GET DESCRIPTOR Response DEVICE
+Frame 100: Packet, 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 99]
+    [Time from request: 289.000 microseconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Tektronix, Inc. (0x0699)
+    idProduct: Unknown (0x03b0)
+    bcdDevice: 0x0042
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+<Wireshark Columns>
+
+101	2025-11-09 08:40:03,412568	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+Frame 101: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 102]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 39
+<Wireshark Columns>
+
+102	2025-11-09 08:40:03,412778	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+Frame 102: Packet, 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 39
+    [Request in: 101]
+    [Time from request: 210.000 microseconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 39
+    bNumInterfaces: 1
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 50  (100mA)
+INTERFACE DESCRIPTOR (0.0): class Application Specific
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 3
+    bInterfaceClass: Application Specific (0xfe)
+    bInterfaceSubClass: USB Test and Measurement Device (0x03)
+    bInterfaceProtocol: USB Test and Measurement Device conforming to the USBTMC USB488 Subclass Specification (0x01)
+    iInterface: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x85  IN  Endpoint:5
+        1... .... = Direction: IN Endpoint
+        .... 0101 = Endpoint Number: 0x5
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x06  OUT  Endpoint:6
+        0... .... = Direction: OUT Endpoint
+        .... 0110 = Endpoint Number: 0x6
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x87  IN  Endpoint:7
+        1... .... = Direction: IN Endpoint
+        .... 0111 = Endpoint Number: 0x7
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 8
+<Wireshark Columns>
+
+103	2025-11-09 08:40:03,412803	host	2.3.0	USB	36		GET DESCRIPTOR Request CONFIGURATION
+Frame 103: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 104]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 39
+<Wireshark Columns>
+
+104	2025-11-09 08:40:03,413009	2.3.0	host	USB	67		GET DESCRIPTOR Response CONFIGURATION
+Frame 104: Packet, 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 39
+    [Request in: 103]
+    [Time from request: 206.000 microseconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 39
+    bNumInterfaces: 1
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 50  (100mA)
+INTERFACE DESCRIPTOR (0.0): class Application Specific
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 3
+    bInterfaceClass: Application Specific (0xfe)
+    bInterfaceSubClass: USB Test and Measurement Device (0x03)
+    bInterfaceProtocol: USB Test and Measurement Device conforming to the USBTMC USB488 Subclass Specification (0x01)
+    iInterface: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x85  IN  Endpoint:5
+        1... .... = Direction: IN Endpoint
+        .... 0101 = Endpoint Number: 0x5
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x06  OUT  Endpoint:6
+        0... .... = Direction: OUT Endpoint
+        .... 0110 = Endpoint Number: 0x6
+    bmAttributes: 0x02
+        .... ..10 = Transfertype: Bulk-Transfer (0x2)
+    wMaxPacketSize: 64
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 0
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x87  IN  Endpoint:7
+        1... .... = Direction: IN Endpoint
+        .... 0111 = Endpoint Number: 0x7
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... .000 0100 0000 = Maximum Packet Size: 64
+    bInterval: 8
+<Wireshark Columns>
+
+105	2025-11-09 08:40:03,413034	host	2.3.0	USB	36		URB_CONTROL in
+Frame 105: Packet, 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.0]
+    <Source or Destination: 2.3.0>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CLASS_INTERFACE (0x001b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 106]
+    Control transfer stage: Setup (0)
+    [bInterfaceClass: Application Specific (0xfe)]
+Setup Data
+    bmRequestType: 0xa1
+        1... .... = Direction: Device-to-host
+        .01. .... = Type: Class (0x1)
+        ...0 0001 = Recipient: Interface (0x01)
+    bRequest: 7
+    wValue: 0x0000
+    wIndex: 0 (0x0000)
+    wLength: 24
+<Wireshark Columns>
+
+106	2025-11-09 08:40:03,413387	2.3.0	host	USB	52		URB_CONTROL in
+Frame 106: Packet, 52 bytes on wire (416 bits), 52 bytes captured (416 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.0]
+    <Source or Destination: 2.3.0>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffff848f55a394c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 24
+    [Request in: 105]
+    [Time from request: 353.000 microseconds]
+    Control transfer stage: Complete (3)
+    [bInterfaceClass: Application Specific (0xfe)]
+CONTROL response data: 010000010001000000000000000107070000000000000000
+0000   01 00 00 01 00 01 00 00 00 00 00 00 00 01 07 07   ................
+0010   00 00 00 00 00 00 00 00                           ........
+<Wireshark Columns>
+
+107	2025-11-09 08:40:04,015513	host	2.3.6	USB	67		URB_BULK out
+Frame 107: Packet, 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.6]
+    <Source or Destination: 2.3.6>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 40
+    [Response in: 108]
+    [bInterfaceClass: Application Specific (0xfe)]
+//Leftover Capture Data: 0101fe001a00000001000000484541444552204f4e3b564552424f5345204f4e3b2a4c524e3f0000
+//0000   01 01 fe 00 1a 00 00 00 01 00 00 00 48 45 41 44   ............HEAD
+//0010   45 52 20 4f 4e 3b 56 45 52 42 4f 53 45 20 4f 4e   ER ON;VERBOSE ON
+//0020   3b 2a 4c 52 4e 3f 00 00                           ;*LRN?..
+<Wireshark Columns>
+
+-------------------------------------------------------
+cmdHeaderOn := []byte{0x01, 0x01, 0xfe, 0x00, 0x9, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00,
+0x48, 0x45, 0x41, 0x44, 0x45, 0x52, 0x20, 0x4f, 0x4e, 0x00, 0x00, 0x00} // SCPI command HEADER ON
+
+-------------------------------------------------------
+
+108	2025-11-09 08:40:04,015783	2.3.6	host	USB	27		URB_BULK out
+Frame 108: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.6]
+    <Source or Destination: 2.3.6>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 107]
+    [Time from request: 270.000 microseconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+109	2025-11-09 08:40:04,016087	host	2.3.6	USB	39		URB_BULK out
+Frame 109: Packet, 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.6]
+    <Source or Destination: 2.3.6>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Response in: 110]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data: 0202fd000000040000000000
+//0000   02 02 fd 00 00 00 04 00 00 00 00 00               ............ LRN0 ???
+<Wireshark Columns>
+
+110	2025-11-09 08:40:04,018656	2.3.6	host	USB	27		URB_BULK out
+Frame 110: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.6]
+    <Source or Destination: 2.3.6>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 109]
+    [Time from request: 2.569000 milliseconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+111	2025-11-09 08:40:04,018868	host	2.3.5	USB	27		URB_BULK in
+Frame 111: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.5]
+    <Source or Destination: 2.3.5>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 232]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+------------------------------------------------------------------------
+
+232	2025-11-09 08:40:07,376421	2.3.5	host	USB	1063		URB_BULK in
+Frame 232: Packet, 1063 bytes on wire (8504 bits), 1063 bytes captured (8504 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.5]
+    <Source or Destination: 2.3.5>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 1036
+    [Request in: 111]
+    [Time from request: 3.357553000 seconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data […]: 0202fd0000040000000000003a48454144455220313b3a564552424f534520313b3a444154413a454e4344472053524942494e4152593b44455354494e4154494f4e20524546413b534f55524345204348313b535441525420313b53544f5020323530303b57494454
+0000   02 02 fd 00 00 04 00 00 00 00 00 00 3a 48 45 41   ............:HEA
+0010   44 45 52 20 31 3b 3a 56 45 52 42 4f 53 45 20 31   DER 1;:VERBOSE 1
+0020   3b 3a 44 41 54 41 3a 45 4e 43 44 47 20 53 52 49   ;:DATA:ENCDG SRI
+0030   42 49 4e 41 52 59 3b 44 45 53 54 49 4e 41 54 49   BINARY;DESTINATI
+0040   4f 4e 20 52 45 46 41 3b 53 4f 55 52 43 45 20 43   ON REFA;SOURCE C
+0050   48 31 3b 53 54 41 52 54 20 31 3b 53 54 4f 50 20   H1;START 1;STOP 
+0060   32 35 30 30 3b 57 49 44 54 48 20 31 3b 3a 4c 4f   2500;WIDTH 1;:LO
+0070   43 4b 20 4e 4f 4e 45 3b 3a 44 49 53 50 4c 41 59   CK NONE;:DISPLAY
+0080   3a 46 4f 52 4d 41 54 20 59 54 3b 53 54 59 4c 45   :FORMAT YT;STYLE
+0090   20 56 45 43 54 4f 52 53 3b 50 45 52 53 49 53 54    VECTORS;PERSIST
+00a0   45 4e 43 45 20 30 3b 43 4f 4e 54 52 41 53 54 20   ENCE 0;CONTRAST 
+00b0   35 30 3b 49 4e 56 45 52 54 20 4f 46 46 3b 3a 41   50;INVERT OFF;:A
+00c0   43 51 55 49 52 45 3a 4d 4f 44 45 20 53 41 4d 50   CQUIRE:MODE SAMP
+00d0   4c 45 3b 4e 55 4d 41 56 47 20 31 36 3b 53 54 41   LE;NUMAVG 16;STA
+00e0   54 45 20 31 3b 53 54 4f 50 41 46 54 45 52 20 52   TE 1;STOPAFTER R
+00f0   55 4e 53 54 4f 50 3b 3a 43 48 31 3a 50 52 4f 42   UNSTOP;:CH1:PROB
+0100   45 20 31 2e 30 45 31 3b 43 55 52 52 45 4e 54 50   E 1.0E1;CURRENTP
+0110   52 4f 42 45 20 31 2e 30 45 31 3b 53 43 41 4c 45   ROBE 1.0E1;SCALE
+0120   20 32 2e 30 45 30 3b 50 4f 53 49 54 49 4f 4e 20    2.0E0;POSITION 
+0130   30 2e 30 45 30 3b 43 4f 55 50 4c 49 4e 47 20 44   0.0E0;COUPLING D
+0140   43 3b 42 41 4e 44 57 49 44 54 48 20 4f 4e 3b 49   C;BANDWIDTH ON;I
+0150   4e 56 45 52 54 20 4f 46 46 3b 59 55 4e 49 54 20   NVERT OFF;YUNIT 
+0160   22 56 22 3b 3a 43 48 32 3a 50 52 4f 42 45 20 31   "V";:CH2:PROBE 1
+0170   2e 30 45 31 3b 43 55 52 52 45 4e 54 50 52 4f 42   .0E1;CURRENTPROB
+0180   45 20 31 2e 30 45 31 3b 53 43 41 4c 45 20 35 2e   E 1.0E1;SCALE 5.
+0190   30 45 2d 31 3b 50 4f 53 49 54 49 4f 4e 20 30 2e   0E-1;POSITION 0.
+01a0   30 45 30 3b 43 4f 55 50 4c 49 4e 47 20 44 43 3b   0E0;COUPLING DC;
+01b0   42 41 4e 44 57 49 44 54 48 20 4f 46 46 3b 49 4e   BANDWIDTH OFF;IN
+01c0   56 45 52 54 20 4f 46 46 3b 59 55 4e 49 54 20 22   VERT OFF;YUNIT "
+01d0   56 22 3b 3a 48 4f 52 49 5a 4f 4e 54 41 4c 3a 56   V";:HORIZONTAL:V
+01e0   49 45 57 20 4d 41 49 4e 3b 4d 41 49 4e 3a 53 43   IEW MAIN;MAIN:SC
+01f0   41 4c 45 20 35 2e 30 45 2d 34 3b 50 4f 53 49 54   ALE 5.0E-4;POSIT
+0200   49 4f 4e 20 30 2e 30 45 30 3b 3a 48 4f 52 49 5a   ION 0.0E0;:HORIZ
+0210   4f 4e 54 41 4c 3a 44 45 4c 41 59 3a 53 43 41 4c   ONTAL:DELAY:SCAL
+0220   45 20 35 2e 30 45 2d 39 3b 50 4f 53 49 54 49 4f   E 5.0E-9;POSITIO
+0230   4e 20 30 2e 30 45 30 3b 3a 54 52 49 47 47 45 52   N 0.0E0;:TRIGGER
+0240   3a 4d 41 49 4e 3a 4d 4f 44 45 20 41 55 54 4f 3b   :MAIN:MODE AUTO;
+0250   54 59 50 45 20 45 44 47 45 3b 48 4f 4c 44 4f 46   TYPE EDGE;HOLDOF
+0260   46 3a 56 41 4c 55 45 20 35 2e 30 45 2d 37 3b 3a   F:VALUE 5.0E-7;:
+0270   54 52 49 47 47 45 52 3a 4d 41 49 4e 3a 45 44 47   TRIGGER:MAIN:EDG
+0280   45 3a 53 4f 55 52 43 45 20 43 48 31 3b 43 4f 55   E:SOURCE CH1;COU
+0290   50 4c 49 4e 47 20 44 43 3b 53 4c 4f 50 45 20 46   PLING DC;SLOPE F
+02a0   41 4c 4c 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49   ALL;:TRIGGER:MAI
+02b0   4e 3a 56 49 44 45 4f 3a 53 4f 55 52 43 45 20 43   N:VIDEO:SOURCE C
+02c0   48 31 3b 53 59 4e 43 20 46 49 45 4c 44 3b 50 4f   H1;SYNC FIELD;PO
+02d0   4c 41 52 49 54 59 20 4e 4f 52 4d 41 4c 3b 4c 49   LARITY NORMAL;LI
+02e0   4e 45 20 31 3b 53 54 41 4e 44 41 52 44 20 4e 54   NE 1;STANDARD NT
+02f0   53 43 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49 4e   SC;:TRIGGER:MAIN
+0300   3a 50 55 4c 53 45 3a 53 4f 55 52 43 45 20 43 48   :PULSE:SOURCE CH
+0310   31 3b 57 49 44 54 48 3a 50 4f 4c 41 52 49 54 59   1;WIDTH:POLARITY
+0320   20 50 4f 53 49 54 49 56 45 3b 57 48 45 4e 20 45    POSITIVE;WHEN E
+0330   51 55 41 4c 3b 57 49 44 54 48 20 31 2e 30 45 2d   QUAL;WIDTH 1.0E-
+0340   33 3b 3a 54 52 49 47 47 45 52 3a 4d 41 49 4e 3a   3;:TRIGGER:MAIN:
+0350   4c 45 56 45 4c 20 32 2e 35 36 45 30 3b 3a 53 45   LEVEL 2.56E0;:SE
+0360   4c 45 43 54 3a 43 48 31 20 31 3b 43 48 32 20 30   LECT:CH1 1;CH2 0
+0370   3b 4d 41 54 48 20 30 3b 52 45 46 41 20 30 3b 52   ;MATH 0;REFA 0;R
+0380   45 46 42 20 30 3b 3a 43 55 52 53 4f 52 3a 46 55   EFB 0;:CURSOR:FU
+0390   4e 43 54 49 4f 4e 20 4f 46 46 3b 53 45 4c 45 43   NCTION OFF;SELEC
+03a0   54 3a 53 4f 55 52 43 45 20 43 48 31 3b 3a 43 55   T:SOURCE CH1;:CU
+03b0   52 53 4f 52 3a 56 42 41 52 53 3a 55 4e 49 54 53   RSOR:VBARS:UNITS
+03c0   20 53 45 43 4f 4e 44 53 3b 50 4f 53 49 54 49 4f    SECONDS;POSITIO
+03d0   4e 31 20 2d 32 2e 35 45 2d 33 3b 50 4f 53 49 54   N1 -2.5E-3;POSIT
+03e0   49 4f 4e 32 20 32 2e 35 45 2d 33 3b 3a 43 55 52   ION2 2.5E-3;:CUR
+03f0   53 4f 52 3a 48 42 41 52 53 3a 50 4f 53 49 54 49   SOR:HBARS:POSITI
+0400   4f 4e 31 20 36 2e 34 45 30 3b 50 4f               ON1 6.4E0;PO
+<Wireshark Columns>
+
+233	2025-11-09 08:40:07,376569	host	2.3.6	USB	39		URB_BULK out
+Frame 233: Packet, 39 bytes on wire (312 bits), 39 bytes captured (312 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.6]
+    <Source or Destination: 2.3.6>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 12
+    [Response in: 234]
+    [bInterfaceClass: Application Specific (0xfe)]
+Leftover Capture Data: 0203fc0000fc030000000000
+//0000   02 03 fc 00 00 fc 03 00 00 00 00 00               ............
+<Wireshark Columns>
+
+234	2025-11-09 08:40:07,376732	2.3.6	host	USB	27		URB_BULK out
+Frame 234: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: 2.3.6]
+    <Source or Destination: 2.3.6>
+    [Destination: host]
+    <Source or Destination: host>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x06, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0110 = Endpoint number: 6
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Request in: 233]
+    [Time from request: 163.000 microseconds]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+235	2025-11-09 08:40:07,376841	host	2.3.5	USB	27		URB_BULK in
+Frame 235: Packet, 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap2, id 0
+USB URB
+    [Source: host]
+    <Source or Destination: host>
+    [Destination: 2.3.5]
+    <Source or Destination: 2.3.5>
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffff848f55cae2a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 2
+    Device address: 3
+    Endpoint: 0x85, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0101 = Endpoint number: 5
+    URB transfer type: URB_BULK (0x03)
+    Packet Data Length: 0
+    [Response in: 356]
+    [bInterfaceClass: Application Specific (0xfe)]
+<Wireshark Columns>
+
+
+
+
+/////////////////////////////
+
+:HEADER 1;:VERBOSE 1;:DATA:ENCDG SRIBINARY;DESTINATION REFA;SOURCE CH1;START 1;STOP 2500;WIDTH 1;:LOCK NONE;:DISPLAY:FORMAT YT;STYLE VECTORS;PERSISTENCE 0;CONTRAST 50;INVERT OFF;:ACQUIRE:MODE SAMPLE;NUMAVG 16;STATE 1;STOPAFTER RUNSTOP;:CH1:PROBE 1.0E1;CURRENTPROBE 1.0E1;SCALE 2.0E0;POSITION 0.0E0;COUPLING DC;BANDWIDTH ON;INVERT OFF;YUNIT "V";:CH2:PROBE 1.0E1;CURRENTPROBE 1.0E1;SCALE 5.0E-1;POSITION 0.0E0;COUPLING DC;BANDWIDTH OFF;INVERT OFF;YUNIT "V";:HORIZONTAL:VIEW MAIN;MAIN:SCALE 2.5E-4;POSITION 0.0E0;:HORIZONTAL:DELAY:SCALE 5.0E-9;POSITION 0.0E0;:TRIGGER:MAIN:MODE AUTO;TYPE EDGE;HOLDOFF:VALUE 5.0E-7;:TRIGGER:MAIN:EDGE:SOURCE CH1;COUPLING DC;SLOPE RISE;:TRIGGER:MAIN:VIDEO:SOURCE CH1;SYNC FIELD;POLARITY NORMAL;LINE 1;STANDARD NTSC;:TRIGGER:MAIN:PULSE:SOURCE CH1;WIDTH:POLARITY POSITIVE;WHEN EQUAL;WIDTH 1.0E-3;:TRIGGER:MAIN:LEVEL 2.64E0;:SELECT:CH1 1;CH2 0;MATH 0;REFA 0;REFB 0;:CURSOR:FUNCTION OFF;SELECT:SOURCE CH1;:CURSOR:VBARS:UNITS SECONDS;POSITION1 -1.25E-3;POSITION2 1.25E-3;:CURSOR:HBARS:POSITION1 6.4E0;POSITION2 -6.4E0;:DATALOGGING:DURATION 30;SOURCE CH1;:MEASUREMENT:MEAS1:TYPE RMS;SOURCE CH1;:MEASUREMENT:MEAS2:TYPE PK2PK;SOURCE CH1;:MEASUREMENT:MEAS3:TYPE FREQUENCY;SOURCE CH1;:MEASUREMENT:MEAS4:TYPE PWIDTH;SOURCE CH1;:MEASUREMENT:MEAS5:TYPE PERIOD;SOURCE CH1;:MEASUREMENT:IMMED:TYPE PERIOD;SOURCE1 CH1;:MEASUREMENT:METHOD AUTO;:MATH:DEFINE "CH1 - CH2";VERTICAL:POSITION 0.0E0;SCALE 2.0E0;:MATH:FFT:HORIZONTAL:POSITION 5.0E1;SCALE 1.0E0;:MATH:FFT:VERTICAL:POSITION 0.0E0;SCALE 1.0E0;:HARDCOPY:BUTTON SAVESALL;FORMAT JPEG;PORT USB;LAYOUT LANDSCAPE;INKSAVER OFF;:PICTBRIDGE:PAPERSIZE DEFLT;IMAGESIZE DEFLT;PAPERTYPE DEFLT;PRINTQUAL DEFLT;DATEPRINT DEFLT;IDPRINT DEFLT;:LANGUAGE ENGLISH;:AUTORANGE:SETTINGS BOTH;:LIMIT:SOURCE CH1;COMPARE REFA;SAVEIMAGE 0;SAVEWFM 0;STOPAFTER:MODE MANUAL;:LIMIT:TEMPLATE:DESTINATION REFA;SOURCE CH1;TOLERANCE:HORIZONTAL 0;VERTICAL 0;:SAVE:IMAGE:FILEFORMAT JPEG
+
+
+
+
