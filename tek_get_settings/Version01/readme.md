@@ -35,6 +35,11 @@ C:\Users\jgust\go\programas\Tektronix\tek_get_settings\Version01>
 //0010   45 52 20 4f 4e 3b 56 45 52 42 4f 53 45 20 4f 4e   ER ON;VERBOSE ON
 //0020   3b 2a 4c 52 4e 3f 00 00                           ;*LRN?..
 
+SCPI Commands:
+HEADer  = Set or query the command header
+VERBose = Return full command name or minimum spellings with query
+*LRN?   = Query device settings
+
 
 /////////////////////////////
 OpenChoice V2.8 get settings 
