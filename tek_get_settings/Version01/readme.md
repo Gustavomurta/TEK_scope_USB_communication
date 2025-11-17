@@ -30,6 +30,10 @@ C:\Users\jgust\go\programas\Tektronix\tek_get_settings\Version01>main
 C:\Users\jgust\go\programas\Tektronix\tek_get_settings\Version01>
 
 
+//Leftover Capture Data: 0101fe001a00000001000000484541444552204f4e3b564552424f5345204f4e3b2a4c524e3f0000
+//0000   01 01 fe 00 1a 00 00 00 01 00 00 00 48 45 41 44   ............HEAD
+//0010   45 52 20 4f 4e 3b 56 45 52 42 4f 53 45 20 4f 4e   ER ON;VERBOSE ON
+//0020   3b 2a 4c 52 4e 3f 00 00                           ;*LRN?..
 
 
 /////////////////////////////
