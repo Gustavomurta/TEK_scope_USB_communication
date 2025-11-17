@@ -63,7 +63,7 @@ func main() {
 	ctx := gousb.NewContext() // Only one context should be needed for an application.
 	defer ctx.Close()         // Close the context when done.
 
-	dev, err := ctx.OpenDeviceWithVIDPID(vid, pid) // Conecta ao aparelho VID/PID = 0699/03B0
+	dev, err := ctx.OpenDeviceWithVIDPID(vid, pid) // Connects to the VID/PID device = 0699/03B0
 	if err != nil {
 		log.Fatalf("Could not open a device: %v", err)
 	}
@@ -77,8 +77,8 @@ func main() {
 	// on the interface and reattach it when releasing the interface
 
 	err = dev.SetAutoDetach(true) // SetAutoDetach enables/disables automatic kernel driver detachment
-	if err != nil {               // Se erro for diferente de nada
-		log.Println("ERROR: falhou para detachar") // Mensagem de erro
+	if err != nil {               
+		log.Println("ERROR: failed to detach") 
 		return
 	}
 	log.Print("Enabling autodetach")
@@ -129,21 +129,21 @@ func main() {
 	log.Printf("Device configuration [%d] %s...", indexCfg, descCfg)
 
 	////////////////////////////////////////////////////////////////////////////
-	manufacturer, err := dev.Manufacturer() // Identifica o nome do Fabricante do Osciloscopio
+	manufacturer, err := dev.Manufacturer() // Identifies the name of the Oscilloscope Manufacturer
 	if err != nil {
 		log.Fatalf("dev.Manufacturer(%s): %v", manufacturer, err)
 	}
 	log.Printf("Manufacturer is %s...", manufacturer)
 
 	////////////////////////////////////////////////////////////////////////////
-	productName, err := dev.Product() // Identifica o nome do Osciloscopio
+	productName, err := dev.Product() // Identify the name of the Oscilloscope
 	if err != nil {
 		log.Fatalf("dev.Product(%s): %v", productName, err)
 	}
 	log.Printf("Product name is %s...", productName)
 
 	////////////////////////////////////////////////////////////////////////////
-	serialNumber, err := dev.SerialNumber() // identifica o serial number do Osciloscopio
+	serialNumber, err := dev.SerialNumber() // identifies the oscilloscope serial number
 	if err != nil {
 		log.Fatalf("dev.SerialNumber(%s): %v", serialNumber, err)
 	}
@@ -203,8 +203,6 @@ func main() {
 	////////////////////////////////////////////////////////////////////////////
 	log.Printf("Save TBS1062 settings to file")        // print
 	_, err = fileSettings.Write(settingsBuffer[:1915]) // write settings buffer to file (1915 bytes)
-	// ou ?
-	// err = os.WriteFile("TBS1062_settings.set", settingsBuffer, 0644)
 	if err != nil {
 		log.Fatal(err) // cancel and print error message
 	}
