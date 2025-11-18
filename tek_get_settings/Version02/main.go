@@ -215,7 +215,7 @@ func main() {
 
 	////////////////////////////////////////////////////////////////////////////
 	log.Printf("Save TBS1062 settings to file") // print
-	_, err = fileSettings.Write(settingsBuffer) // write settings buffer to file (1915 bytes) [:1915]
+	_, err = fileSettings.Write(settingsBuffer) // write settings buffer to file
 	if err != nil {
 		log.Fatal(err) // cancel and print error message
 	}
