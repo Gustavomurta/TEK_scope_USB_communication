@@ -215,9 +215,12 @@ func main() {
 
 	////////////////////////////////////////////////////////////////////////////
 	log.Printf("Save TBS1062 settings to file") // print
+	fileBytes := len(settingsBuffer)
+	log.Printf("Total settings data length: %d bytes", fileBytes)
+
 	_, err = fileSettings.Write(settingsBuffer) // write settings buffer to file
 	if err != nil {
 		log.Fatal(err) // cancel and print error message
 	}
-	log.Printf("Save file OK! ")
+	log.Printf("Save file OK! ")	
 }
